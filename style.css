@@ -1,8 +1,12 @@
+/* style.css */
+/* Global Styles */
+
 body {
     background-color: #009635;
     align-content: center;
     text-align: center;
     font-family: Arial, sans-serif;
+    color: white;
 }
 
 h1 {
@@ -16,6 +20,29 @@ h1 {
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: #004b1a;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#link-text {
+    font-size: 18px;
+    color: white;
+    background-color: #004b1a;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Index Page Styles */
 
 #featured {
     list-style-type: none;
@@ -39,5 +66,62 @@ h1 {
         width: 200px;
         height: auto;
         border-radius: 10px;
+    }
+}
+
+/* Recipe Page Styles */
+
+#recipe-image {
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+
+#description {
+    width: 75%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #009635;
+    border: 5px solid #004b1a;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+#ingredients {
+    padding: 0;
+    margin: 20px auto;
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    li {
+        border: 5px solid #004b1a;
+        background-color: #009635;
+        border-radius: 20px;
+        align-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        padding: 10px;
+    }
+}
+
+#steps {
+    padding: 0;
+    margin: 20px auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    li {
+        border: 5px solid #004b1a;
+        background-color: #009635;
+        border-radius: 20px;
+        align-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        padding: 10px;
     }
 }

@@ -1,6 +1,5 @@
-# odin-recipes
-## Recipes Project
-
+# Recipes Project
+The Odin Project Curriculum
 ---
 
 ## Outline
